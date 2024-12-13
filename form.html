@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>форма</title>
+</head>
+<body class="bodya">
+    <div id="warper">
+        <header>
+            <a id="logo" href="index.html"><i><span class="pink">сайт</span> визитка</i></a>
+            <ul id="main_ul">
+                <li id="main_li"><a id="main_a"href="uslugi.html">услуги</a></li>
+                <li id="main_li"><a id="main_a"href="o nas.html"> о нас</a></li>
+                <li id="main_li"><a id="main_a" href= "klienty.html">клиенты</a></li>
+                <li class="active" id="main_li"><a id="main_a" href="kontakty.html">контакты</a></li>
+            </ul>
+        </header>
+        <main>
+            <form id="contact_form" action="">
+                <div  class="form_item">
+                    <label for="topic">заказать услугу</label>
+                    <select name="topic" id="topic">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            <div class="form_item">
+                <label for="name">имя</label><br>
+                <input required placeholder="ваше имя" name="name" id="name" type="text">
+                
+            </div>
+            <div class="form_item">
+                <label for="name">e-mail</label><br>
+                <input required placeholder="pup@mail.ru" name="name" id="name" type="email">
+            </div>
+            <div>
+                <label for="name">ваше сообщение</label><br>
+                <textarea required placeholder="привет меня зовут леша и я хочу дать тебе 1 миллиард евро" name="name" id="name" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form_item">
+                <input type="submit">
+            </div>
+        </form>
+        </main>
+    </div>
+    <footer>
+        <p class="footer_block">написать нам &#9650;</p>
+        <P class="footer_block">&COPY; Новая компания</P>
+        <div class="footer_icons">
+            <a target="_blank"><img class="footer_img" src="img/mailru.png" alt="мыло"></a>
+            <a target="_blank"><img class="footer_img" src="img/ok.png" alt="однокласники"></a>
+            <a target="_blank"><img class="footer_img" src="img/vk.png" alt="вк"></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
